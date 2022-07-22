@@ -14,6 +14,10 @@
 		F6FE0FA9288A76D200B58A5A /* LabWeek4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FA8288A76D200B58A5A /* LabWeek4Tests.swift */; };
 		F6FE0FB3288A76D200B58A5A /* LabWeek4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FB2288A76D200B58A5A /* LabWeek4UITests.swift */; };
 		F6FE0FB5288A76D200B58A5A /* LabWeek4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FB4288A76D200B58A5A /* LabWeek4UITestsLaunchTests.swift */; };
+		F6FE0FC4288A788F00B58A5A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FC3288A788F00B58A5A /* CircleImage.swift */; };
+		F6FE0FC6288A7AD400B58A5A /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FC5288A7AD400B58A5A /* ColorConstants.swift */; };
+		F6FE0FC8288A7B5500B58A5A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FC7288A7B5500B58A5A /* InfoView.swift */; };
+		F6FE0FCA288A7DD800B58A5A /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FC9288A7DD800B58A5A /* ContactCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		F6FE0FAE288A76D200B58A5A /* LabWeek4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabWeek4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FE0FB2288A76D200B58A5A /* LabWeek4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabWeek4UITests.swift; sourceTree = "<group>"; };
 		F6FE0FB4288A76D200B58A5A /* LabWeek4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabWeek4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6FE0FC3288A788F00B58A5A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F6FE0FC5288A7AD400B58A5A /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		F6FE0FC7288A7B5500B58A5A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F6FE0FC9288A7DD800B58A5A /* ContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				F6FE0F97288A76D000B58A5A /* LabWeek4App.swift */,
 				F6FE0F99288A76D000B58A5A /* ContentView.swift */,
+				F6FE0FC3288A788F00B58A5A /* CircleImage.swift */,
+				F6FE0FC9288A7DD800B58A5A /* ContactCard.swift */,
+				F6FE0FC5288A7AD400B58A5A /* ColorConstants.swift */,
+				F6FE0FC7288A7B5500B58A5A /* InfoView.swift */,
 				F6FE0F9B288A76D200B58A5A /* Assets.xcassets */,
 				F6FE0F9D288A76D200B58A5A /* Preview Content */,
 			);
@@ -259,6 +271,10 @@
 			files = (
 				F6FE0F9A288A76D000B58A5A /* ContentView.swift in Sources */,
 				F6FE0F98288A76D000B58A5A /* LabWeek4App.swift in Sources */,
+				F6FE0FCA288A7DD800B58A5A /* ContactCard.swift in Sources */,
+				F6FE0FC4288A788F00B58A5A /* CircleImage.swift in Sources */,
+				F6FE0FC8288A7B5500B58A5A /* InfoView.swift in Sources */,
+				F6FE0FC6288A7AD400B58A5A /* ColorConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
