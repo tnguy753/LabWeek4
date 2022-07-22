@@ -6,8 +6,11 @@
 //
 
 import Foundation
+import CoreLocation
 
-var contacts:[Contact]=[
+
+var contacts:[Contact] =
+[
     Contact(name: "Tom Huynh", email: "tom.huynh@rmit.edu.vn", phone: "0912325232", imageName: "tom-huynh", locationCoordinate: CLLocationCoordinate2D(latitude: 10.729410965174186, longitude: 106.69522548892152)),
         Contact(name: "Brett Kirk", email: "brett.kirk@rmit.edu.vn", phone: "09435325634", imageName: "brett-kirk", locationCoordinate: CLLocationCoordinate2D(latitude: 10.758256325746386, longitude: 106.67228491141948)),
         Contact(name: "Minh Dinh", email: "minh.dinh4@rmit.edu.vn", phone: "0853453563", imageName: "minh-dinh", locationCoordinate: CLLocationCoordinate2D(latitude: 10.786710386116287, longitude: 106.73818415444727)),
@@ -22,6 +25,5 @@ var contacts:[Contact]=[
         Contact(name: "Minh Tran", email: "minh.tran@rmit.edu.vn", phone: "0952534523", imageName: "minh-tran", locationCoordinate: CLLocationCoordinate2D(latitude: 10.23862895243684, longitude: 106.3776103458168)),
         Contact(name: "Sam Goundar", email: "sam.goundar@rmit.edu.vn", phone: "095534534", imageName: "sam-goundar", locationCoordinate: CLLocationCoordinate2D(latitude: 9.991073220047838, longitude: 106.0169751879182)),
         Contact(name: "Ushik Shrestha", email: "ushik.shrestha@rmit.edu.vn", phone: "0922345123", imageName: "ushik-shrestha", locationCoordinate: CLLocationCoordinate2D(latitude: 11.940952669293084, longitude: 108.45964507946036))
-    ]
 
 ]

@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContactCard: View {
+    var contact: Contact
+    
     var body: some View {
         
         ZStack{
         ColorConstants.rmitBlue
             .edgesIgnoringSafeArea(.all)
+            ScrollView {
             VStack{
-                CircleImage()
-                Text("Tom Huynh")
+                MapView(coordinate: contact.locationCoordinate)
+                    .edgesIgnoringSafeArea(.top)
+                    .frame(height: 250)
+                CircleImage(image: contact.image)
+                Text(contact.name)
                     .font(.system(size: 40))
                     .foregroundColor(.white)
                     .bold()
@@ -24,17 +30,20 @@ struct ContactCard: View {
                     .aspectRatio(contentMode: ContentMode.fit)
                     .frame(height:75)
                 Group{
-                    InfoView(text: "tom@rmit.edu", imageName: "envelope.fill")
-                    InfoView(text: "1234567", imageName: "phone.fill")
+                    InfoView(text: contact.email, imageName: "envelope.fill")
+                    InfoView(text: contact.phone, imageName: "phone.fill")
                 }.padding()
                
             }
         }
+        .navigationTitle(contact.name)
+        .navigationBarTitleDisplayMode(.inline)
+        .foregroundColor(.white)
     }
 }
-
+}
 struct ContactCard_Previews: PreviewProvider {
     static var previews: some View {
-        ContactCard()
+        ContactCard(contact: contacts[2])
     }
 }

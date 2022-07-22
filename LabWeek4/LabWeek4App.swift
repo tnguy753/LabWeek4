@@ -11,7 +11,7 @@ import SwiftUI
 struct LabWeek4App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContactList()
         }
     }
 }

@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct ContactRow: View {
+    var contact:Contact
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            contact.image
+                .resizable()
+                .frame(width: 50, height: 50)
+            Text(contact.name)
+        }
+       
     }
 }
 
 struct ContactRow_Previews: PreviewProvider {
     static var previews: some View {
-        ContactRow()
+        Group{
+            ContactRow(contact: contacts[0])
+            ContactRow(contact: contacts[1])
+            ContactRow(contact: contacts[4])
+        } .previewLayout(.sizeThatFits)
+        
     }
 }
