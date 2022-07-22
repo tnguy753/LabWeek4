@@ -18,6 +18,9 @@
 		F6FE0FC6288A7AD400B58A5A /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FC5288A7AD400B58A5A /* ColorConstants.swift */; };
 		F6FE0FC8288A7B5500B58A5A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FC7288A7B5500B58A5A /* InfoView.swift */; };
 		F6FE0FCA288A7DD800B58A5A /* ContactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FC9288A7DD800B58A5A /* ContactCard.swift */; };
+		F6FE0FCE288A803500B58A5A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FCD288A803500B58A5A /* Contact.swift */; };
+		F6FE0FD0288A80AB00B58A5A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FCF288A80AB00B58A5A /* ModelData.swift */; };
+		F6FE0FD2288A817400B58A5A /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FE0FD1288A817400B58A5A /* ContactRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		F6FE0FC5288A7AD400B58A5A /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		F6FE0FC7288A7B5500B58A5A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		F6FE0FC9288A7DD800B58A5A /* ContactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCard.swift; sourceTree = "<group>"; };
+		F6FE0FCD288A803500B58A5A /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		F6FE0FCF288A80AB00B58A5A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F6FE0FD1288A817400B58A5A /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +108,9 @@
 		F6FE0F96288A76D000B58A5A /* LabWeek4 */ = {
 			isa = PBXGroup;
 			children = (
+				F6FE0FCC288A801400B58A5A /* Model */,
+				F6FE0FCB288A7FF300B58A5A /* Views */,
 				F6FE0F97288A76D000B58A5A /* LabWeek4App.swift */,
-				F6FE0F99288A76D000B58A5A /* ContentView.swift */,
-				F6FE0FC3288A788F00B58A5A /* CircleImage.swift */,
-				F6FE0FC9288A7DD800B58A5A /* ContactCard.swift */,
-				F6FE0FC5288A7AD400B58A5A /* ColorConstants.swift */,
-				F6FE0FC7288A7B5500B58A5A /* InfoView.swift */,
 				F6FE0F9B288A76D200B58A5A /* Assets.xcassets */,
 				F6FE0F9D288A76D200B58A5A /* Preview Content */,
 			);
@@ -137,6 +140,28 @@
 				F6FE0FB4288A76D200B58A5A /* LabWeek4UITestsLaunchTests.swift */,
 			);
 			path = LabWeek4UITests;
+			sourceTree = "<group>";
+		};
+		F6FE0FCB288A7FF300B58A5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE0FC7288A7B5500B58A5A /* InfoView.swift */,
+				F6FE0FC9288A7DD800B58A5A /* ContactCard.swift */,
+				F6FE0FC3288A788F00B58A5A /* CircleImage.swift */,
+				F6FE0F99288A76D000B58A5A /* ContentView.swift */,
+				F6FE0FD1288A817400B58A5A /* ContactRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6FE0FCC288A801400B58A5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE0FC5288A7AD400B58A5A /* ColorConstants.swift */,
+				F6FE0FCD288A803500B58A5A /* Contact.swift */,
+				F6FE0FCF288A80AB00B58A5A /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +296,13 @@
 			files = (
 				F6FE0F9A288A76D000B58A5A /* ContentView.swift in Sources */,
 				F6FE0F98288A76D000B58A5A /* LabWeek4App.swift in Sources */,
+				F6FE0FD2288A817400B58A5A /* ContactRow.swift in Sources */,
 				F6FE0FCA288A7DD800B58A5A /* ContactCard.swift in Sources */,
 				F6FE0FC4288A788F00B58A5A /* CircleImage.swift in Sources */,
 				F6FE0FC8288A7B5500B58A5A /* InfoView.swift in Sources */,
+				F6FE0FD0288A80AB00B58A5A /* ModelData.swift in Sources */,
 				F6FE0FC6288A7AD400B58A5A /* ColorConstants.swift in Sources */,
+				F6FE0FCE288A803500B58A5A /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
